@@ -1,3 +1,3 @@
 theme: jekyll-theme-minimal
 title: Joe Shenouda Github | awesome-cyber-skills
-description: A curated list of hacking environments where you can train your cyber skills free, legally and safely
+description: A PowerShell script for Windows security checks, covering Windows Defender, firewall, UAC, updates, BitLocker, network sharing, PowerShell execution policy, Secure Boot, SMBv1, RDP, LAPS, and audit policy. Generates a report with results. Quickly identify security issues in your Windows system. Use at your own risk.
