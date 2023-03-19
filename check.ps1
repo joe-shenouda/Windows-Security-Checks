@@ -99,7 +99,7 @@ Write-Host "LAPS is configured and active." -ForegroundColor Green
 Write-Host "LAPS is not configured or not active." -ForegroundColor Red
 }
 
-# Check 15 - Audit Policy
+# Check 13 - Audit Policy
 $auditPolicy = AuditPol.exe /get /category:*
 if ($auditPolicy -match 'Success and Failure') {
 Write-Host "Audit policy is configured for Success and Failure events." -ForegroundColor Green
@@ -148,13 +148,7 @@ $rdpStatus
 Check 12: Local Administrator Password Solution (LAPS) Status
 $lapsStatus
 
-Check 13: Account Lockout Policy
-$lockoutPolicy
-
-Check 14: Password Complexity Policy
-$pwdComplexity
-
-Check 15: Audit Policy
+Check 13: Audit Policy
 $auditPolicy
 "@
 
